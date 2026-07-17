@@ -25,6 +25,7 @@ public class BruteForceHashCracker implements HashCracker {
             }
             return null;
         }
+        
         for (int i = 0; i < ALPHABET.length(); i++) {
             String newCombo = currentCombo + ALPHABET.charAt(i);
             String result = tryAllCombinations(newCombo, targetLength, targetHash);
