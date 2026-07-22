@@ -70,7 +70,6 @@ classDiagram
     PasswordCracker ..> HashCrackerFactory : uses
 ```
 
-*(Ce diagramme se dessine automatiquement sur GitHub, aucune image à joindre.)*
 
 ## 5. Usage du patron Simple Factory
 
